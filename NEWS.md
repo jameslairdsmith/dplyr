@@ -1,5 +1,7 @@
 # dplyr (development version)
 
+* The `.cols=` argument of `if_any()` and `if_all()` default to `everything()`. 
+
 # dplyr 1.0.4
 
 * Improved performance for `across()`. This makes `summarise(across())` and 
